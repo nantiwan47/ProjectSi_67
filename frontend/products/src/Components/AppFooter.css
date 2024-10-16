@@ -1,0 +1,33 @@
+.app-footer {
+    background-color: #222; /* สีพื้นหลัง */
+    color: white; /* สีข้อความ */
+    padding: 10px; /* ระยะห่างด้านใน */
+    text-align: center; /* จัดตำแหน่งข้อความให้อยู่กลาง */
+    width: 100%; /* ให้ความกว้างเต็มหน้าจอ */
+    position: relative; /* ทำให้ Footer อยู่ในตำแหน่งปกติ */
+    bottom: 0; /* อยู่ที่ด้านล่าง */
+}
+
+.footer-content {
+    max-width: 1200px; /* ความกว้างสูงสุด */
+    margin: 0 auto; /* จัดกลางในแนวนอน */
+}
+
+.footer-links {
+    margin-top: 5px; /* ระยะห่างด้านบน */
+}
+
+.footer-link {
+    color: white; /* สีข้อความ */
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    margin: 0 15px; /* ระยะห่างระหว่างลิงค์ */
+    transition: color 0.3s; /* เอฟเฟกต์การเปลี่ยนสี */
+}
+
+.footer-link:hover {
+    color: #ff0000; /* เปลี่ยนสีเมื่อวางเมาส์ */
+}
+
+.pName{
+    color: orange;
+}

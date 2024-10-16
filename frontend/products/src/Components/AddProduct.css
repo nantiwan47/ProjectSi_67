@@ -1,0 +1,162 @@
+.form-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.product-form {
+    width: 60%;
+}
+
+.form-container {
+    border-radius: 8px;
+    padding: 10px 50px 50px 50px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.from-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.form-group {
+    padding: 0 100px 0 100px;
+}
+
+label {
+    display: block;/* ให้ label อยู่ในบรรทัดใหม่ */
+    margin-bottom: 5px;
+    color: #3e3e3e;
+
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    /* ให้ช่อง input ขยายเต็มความกว้าง */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #1890ff;
+    outline: none;
+}
+
+textarea {
+    height: 250px;
+}
+
+.color-input-group,
+.size-input-group {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.color-input-group input,
+.size-input-group input {
+    flex: 1;
+    margin: 0;
+}
+
+.remove-color-btn,
+.remove-size-btn {
+    position: absolute;
+    right: 10px;
+    /* ห่างจากขวา */
+    top: 50%;
+    /* จัดแนวกลางในแนวตั้ง */
+    transform: translateY(-50%);
+    /* จัดแนวกลางในแนวตั้ง */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff0000;
+    display: flex;
+    align-items: center;
+}
+
+.remove-color-btn:hover,
+.remove-size-btn:hover {
+    color: #d63624;
+}
+
+.add-color-btn,
+.add-size-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1.5px solid #2196F3;
+    color: #2196F3;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-color-btn:hover,
+.add-size-btn:hover {
+    border-color: #2b82c9;
+    color: #2b82c9;
+}
+
+.add-color-btn .icon,
+.add-size-btn .icon {
+    margin-right: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cancel-button {
+    width: 150px;
+    background-color: #ffffff;
+    color: #555;
+    border: 1px solid #9E9E9E;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.cancel-button:hover {
+    border: 1px solid #676666;
+    color: black;
+}
+
+.submit-button {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.submit-button:hover {
+    background-color: #388E3C;
+}

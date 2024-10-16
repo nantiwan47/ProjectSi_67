@@ -1,0 +1,37 @@
+
+.app-header {
+    position: fixed; /* ทำให้ header อยู่ที่ตำแหน่งคงที่ */
+    top: 0; /* ตั้งอยู่ที่ด้านบนสุด */
+ /* ตั้งอยู่ที่ด้านซ้ายสุด */
+    width: 100%; /* ให้กว้างเต็มหน้าจอ */
+    display: flex; /* ใช้ Flexbox สำหรับการจัดเรียง */
+    align-items: center; /* จัดตำแหน่งให้อยู่กลาง */
+    padding: 20px 30px; /* ระยะห่างด้านใน */
+    background-color: #333; /* สีพื้นหลังเข้ม */
+    color: white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    z-index: 1000; /* ทำให้ header อยู่เหนือองค์ประกอบอื่น ๆ */
+}
+
+.app-header-item {
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    color: white;
+    margin: 0 15px; /* ระยะห่างระหว่างรายการ */
+    font-size: 16px; 
+    display: flex; /* ใช้ Flexbox เพื่อจัดเรียงไอคอนและข้อความ */
+    align-items: center; /* จัดตำแหน่งให้อยู่กลาง */
+}
+
+.app-header-item:hover {
+    color: #ff0000; 
+}
+
+.app-header-item-active {
+    font-weight: bold; 
+    color: #ff0000;
+}
+
+.header-icon {
+    margin-right: 5px; /* เพิ่มระยะห่างระหว่างไอคอนและข้อความ */
+    vertical-align: middle; /* จัดแนวไอคอนให้ตรงกลาง */
+}
